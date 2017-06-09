@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:adnroid="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    adnroid:layout_width="match_parent"
+    adnroid:layout_height="wrap_content"
+    adnroid:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        adnroid:layout_width="match_parent"
+        adnroid:layout_height="wrap_content"
+        adnroid:orientation="vertical">
+
+        <ImageView
+            adnroid:id="@+id/fruit_image"
+            adnroid:layout_width="match_parent"
+            adnroid:layout_height="100dp"
+            adnroid:scaleType="centerCrop"
+            />
+
+        <TextView
+            adnroid:id="@+id/fruit_name"
+            adnroid:layout_width="wrap_content"
+            adnroid:layout_height="wrap_content"
+            adnroid:layout_gravity="center_horizontal"
+            adnroid:layout_margin="5dp"
+            adnroid:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
